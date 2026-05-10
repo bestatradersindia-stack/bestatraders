@@ -3,25 +3,25 @@ export default function BestaTradersWebsite() {
     {
       title: 'Grains & Millets',
       image:
-        'https://images.unsplash.com/photo-1501430654243-c934cec2e1c0?q=80&w=1400&auto=format&fit=crop',
+        '/grainsandmillets.png',
       desc: 'Premium grains, cereals, and nutritious millets processed directly from trusted Indian farms.s.'
     },
     {
       title: 'Pulses',
       image:
-        'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1400&auto=format&fit=crop',
+        '/pulses.png',
       desc: 'High-quality farm-grown pulses carefully selected for freshness, purity, and consistent supply.'
     },
     {
       title: 'Fresh Fruits',
       image:
-        'fruits.png',
+        '/fruits.png',
       desc: 'Fresh mangoes, sweet lime and pomegranate produce sourced with quality assurance.'
     },
     {
       title: 'Vegetables',
       image:
-        'vegetables.png',
+        '/veggies.png',
       desc: 'Farm-fresh drumsticks, brinjals, chillies, lime, and cultivated vegetables supplied with consistency.'
     },
     {
@@ -85,17 +85,23 @@ export default function BestaTradersWebsite() {
             </h2>
 
             <p className="text-gray-200 text-xl leading-9 max-w-2xl mb-10">
-              Your trusted partner for grains, millets, pulses, fruits, vegetables, and chemical products across India.
+              Your trusted partner for grains, millets, pulses, fruits, vegetables, and chemical products across the world.
             </p>
 
             <div className="flex gap-5 flex-wrap">
-              <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all">
-                Our Products
-              </button>
+<a
+  href="#products"
+  className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-2xl font-bold"
+>
+  Our Products
+</a>
 
-              <button className="border border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-2xl font-bold text-lg transition-all">
-                Contact Us
-              </button>
+<a
+  href="#contact"
+  className="border border-white text-white px-8 py-4 rounded-2xl font-bold"
+>
+  Contact Us
+</a>
             </div>
           </div>
 
@@ -104,7 +110,7 @@ export default function BestaTradersWebsite() {
               <div>
                 <h3 className="text-green-400 font-bold text-2xl mb-3">Address</h3>
                 <p className="text-gray-300 leading-8">
-                  5.508 Shriram Sameeksha, New Gangamma Gudi Police Station Rd, Naidu Layout, Kuvempunagar, Jalahalli East, Bengaluru, Karnataka 560013
+                  Flat 5.508 Shriram Sameeksha, New Gangamma Gudi Police Station Rd, Naidu Layout, Kuvempunagar, Jalahalli East, Bengaluru, Karnataka 560013
                 </p>
               </div>
 
@@ -169,7 +175,7 @@ export default function BestaTradersWebsite() {
           </p>
 
           <h2 className="text-5xl font-black mb-16">
-            Premium Quality Agricultural Products
+            Premium Quality Agricultural Products and Industrial Chemicals
           </h2>
 
           <div className="grid md:grid-cols-2 xl:grid-cols-5 gap-8">
@@ -195,9 +201,14 @@ export default function BestaTradersWebsite() {
                     </p>
                   )}
 
-                  <button className="bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-2xl font-semibold transition-all">
-                    Send Inquiry
-                  </button>
+                  <a
+  href="https://wa.me/918143305055"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-2xl font-semibold transition-all"
+>
+  Send Inquiry
+</a>
                 </div>
               </div>
             ))}
@@ -230,7 +241,7 @@ export default function BestaTradersWebsite() {
               </div>
 
               <div className="bg-white/5 border border-white/10 p-6 rounded-3xl leading-8">
-                📍 5.508 Shriram Sameeksha, New Gangamma Gudi Police Station Rd, Bengaluru, Karnataka 560013
+                📍 Flat 5.508 Shriram Sameeksha, New Gangamma Gudi Police Station Rd, Naidu Layout, Kuvempunagar, Jalahalli East, Bengaluru, Karnataka 560013
               </div>
             </div>
           </div>
@@ -253,10 +264,12 @@ export default function BestaTradersWebsite() {
               placeholder="Your Message"
               className="w-full mb-5 p-5 rounded-2xl border border-gray-200 outline-none"
             ></textarea>
-
-            <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-5 rounded-2xl transition-all">
-              Send Inquiry
-            </button>
+<a
+  href="mailto:bestatraders.india@gmail.com?subject=Inquiry from Website"
+  className="block text-center w-full bg-green-500 hover:bg-green-600 text-white font-bold py-5 rounded-2xl transition-all"
+>
+  Send Inquiry
+</a>
           </div>
         </div>
       </section>
